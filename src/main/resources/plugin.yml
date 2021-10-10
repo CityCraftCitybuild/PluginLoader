@@ -1,0 +1,16 @@
+name: PluginLoader
+version: 1.0
+main: de.mariocst.pluginloader.PluginLoader
+api-version: 1.17
+authors: [ marioCST ]
+description: Plugin Loader for Paper
+
+commands:
+  plugin:
+    description: Lade/Entlade ein Plugin, oder lade ein Plugin neu! MANCHE PLUGINS UNTERSTÜTZEN DAS LADEN NICHT!
+    permission: mario.plugin
+
+permissions:
+  mario.plugin:
+    description: Rechte für den /plugin Command!
+    default: op
